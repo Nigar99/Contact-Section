@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box; 
+ }
+ body{
+    margin: 0em;
+ }
+ .up {
+     background-color: black;
+     height: 79px;
+
+ }
+ a {
+     text-decoration: none;
+     color: white;
+ }
+ .n {
+     background-color: rgb(255, 38, 0);
+     font-family: 'Lobster Two', cursive;
+     font-size: 36px;
+     width: 39px;
+     height: 43px;
+     color: white;
+     text-align: center;
+     position: absolute;
+    margin-top: 19px;
+    margin-left: 131px;
+    border-radius: 7px;
+ }
+ p {position: absolute;
+     color: white;
+     margin-top: 25px;
+     margin-left: 171px;
+     font-size: 31px;
+ }
+ ul { position: absolute;
+     color: white;
+     margin-left: 11px;
+     right: 119px;
+     margin-top: 31px;
+     font-size: 19px;
+     list-style-type: none;
+ }
+ li {
+    display: inline;
+    margin-left: 19px;
+ }
+ li:hover {
+     color: rgb(255, 38, 0);
+ }
+
+.fa-cog {position: fixed;
+     color: white;
+     background-color: rgb(255, 38, 0);
+     top: 99px;
+     padding: 9px 6px;
+     border-bottom-right-radius:9px ;
+ }
+ .content {
+     margin-top: 41px;
+     background-image: url(../img/background.jpg);
+     background-repeat: no-repeat;
+     background-size: 1391px;
+     height: 459px;
+ }
+ .left { position: absolute;
+    left: 114px;
+    width: 555px;
+    top: 311px;
+ }
+ .h1 { position: absolute;
+     color: white;
+     font-size: 23px;
+    top: 211px;
+    left: 131px;
+ }
+ .right { position: absolute;
+    right: 14px;
+    width: 655px;
+    top: 311px;
+ }
+ .name, .mail, .phone {
+    background-color: rgba(20, 15, 15, 0.8);
+     color: rgb(255, 255, 255);
+     width:241px;
+     height: 34px;
+     font-size: 14px;
+     margin-left: 19px;
+     margin-bottom: 19px;
+     display: inline-block;
+     padding-left: 5px;
+ }
+ .phone {
+     margin-left: 65px;
+ }
+ .message {
+    background-color: rgba(20, 15, 15, 0.8);
+    color: rgb(255, 255, 255);
+    width:504px;
+    padding-bottom: 31px;
+    font-size: 14px;
+    margin-left: 19px;
+    margin-bottom: 19px;
+ }
+ .location1, .location2 {
+    background-color: rgba(20, 15, 15, 0.8);
+    color: rgb(255, 255, 255);
+    width:241px;
+    padding-bottom: 17px;
+    padding-left: 5px;
+    font-size: 14px;
+    margin-left: 19px;
+    margin-bottom: 19px;
+    display: inline-block;
+ }
+ .location2 {
+     margin-left: 65px;
+ }
+ .fa-envelope, .fa-phone-alt {
+     position: absolute;
+     color: white;
+     background-color: rgb(255, 38, 0);
+     right:650px;
+     bottom: 288px;
+     padding: 9px 15px;
+ }
+ .fa-phone-alt {
+    right:340px;
+ }
+ .fa-map-marker-alt, #locationicon {
+    position: absolute;
+    color: white;
+    background-color: rgb(255, 38, 0);
+    right:340px;
+    bottom: 220px;
+    padding: 16.7px;
+ }
+ #locationicon {
+    right:650px;
+ }
+ button {
+     background-color: rgb(255, 38, 0);
+     color: white;
+     border-radius: 4px;
+     font-size: 14px;
+     padding: 7px;
+     width:149px;
+     margin-left: 19px;
+     margin-top: 11px;
+     border: 0;
+ }
+ button::before { position: absolute;
+     content: "\f1d8";
+     font-family: "FontAwesome";
+     left: 29px;
+     bottom: 8px;
+     color: white;
+ }
+ input {
+     border: 0;
+ }
+ input:hover, .mail:hover, .phone:hover, .location1:hover, .location2:hover {
+     background-color: rgb(255, 38, 0);
+ }
+ .footer {
+     background-color: black;
+     height: 55px;
+ }
+ .fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-youtube {
+     position: absolute;
+     background-color: black;
+     color: white;
+     border: 1px solid white;
+     border-radius: 5px;
+     padding: 5px;
+     font-size: 11px;
+     left: 633px;
+     margin-top: 15px;
+ }
+ .fa-twitter {
+    left: 669px;
+}
+.fa-linkedin-in {
+    left: 708px;
+}
+.fa-youtube {
+    left: 746px;
+}
+span { position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top: 19px;
+    left: 174px;
+}
+.b {
+    color: rgb(255, 38, 0);
+}
